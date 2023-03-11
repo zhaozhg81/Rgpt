@@ -1,4 +1,5 @@
-Rgpt_completions <- function(history, prompt, openai_api_key = Sys.getenv("OPENAI_API_KEY")) {
+Rgpt_completions <-
+function(history, prompt, openai_api_key = Sys.getenv("OPENAI_API_KEY")) {
   prompt2 = prompt
   prompt = paste(history, "Here is a follow-up questions", prompt)
   

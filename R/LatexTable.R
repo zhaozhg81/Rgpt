@@ -1,4 +1,5 @@
-LatexTable <- function(nrow, ncol, entries)
+LatexTable <-
+function(nrow, ncol, entries)
 {
   history = ""
   inquiry = paste( c( "create a 2x4 table using latex with the entries provided as follows:", entries), 

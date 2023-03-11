@@ -1,5 +1,5 @@
-
-Rgpt <- function(inquiry) {
+Rgpt <-
+function(inquiry) {
   history = ""
   result = parse_return(Rgpt_completions(history, inquiry) ) 
   
