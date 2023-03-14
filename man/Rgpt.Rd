@@ -7,7 +7,7 @@
 Rgpt(inquiry)
 }
 \arguments{
-\item{inquiry}{}
+\item{inquiry}{the question to be sent to chatgpt}
 }
 \value{
 
@@ -16,6 +16,8 @@ Rgpt(inquiry)
 Title
 }
 \examples{
+question="Using R, write a sample code for running linear regression model"
+Rgpt(question)
 
 
 

@@ -7,7 +7,7 @@
 parse_return(return)
 }
 \arguments{
-\item{return}{}
+\item{return}{the string returned from chatgpt}
 }
 \value{
 

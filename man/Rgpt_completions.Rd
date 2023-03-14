@@ -11,7 +11,11 @@ Rgpt_completions(
 )
 }
 \arguments{
-\item{openai_api_key}{}
+\item{history}{the historical record of the conversation with chatgpt}
+
+\item{prompt}{new inquiry}
+
+\item{openai_api_key}{an OPEN_API_KEY is required.}
 }
 \value{
 

@@ -1,11 +1,13 @@
 #' Title
 #'
-#' @param inquiry
+#' @param inquiry the question to be sent to chatgpt
 #'
 #' @return
 #' @export
 #'
 #' @examples
+#' question="Using R, write a sample code for running linear regression model"
+#' Rgpt(question)
 #'
 #'
 #'

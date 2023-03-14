@@ -1,8 +1,8 @@
 #' Title
 #'
-#' @param history
-#' @param prompt
-#' @param openai_api_key
+#' @param history the historical record of the conversation with chatgpt
+#' @param prompt new inquiry
+#' @param openai_api_key an OPEN_API_KEY is required.
 #'
 #' @return
 #' @export

@@ -7,15 +7,19 @@
 LatexTable(nrow, ncol, entries)
 }
 \arguments{
-\item{entries}{}
+\item{nrow}{the number of rows}
+
+\item{ncol}{the number of columes}
+
+\item{entries}{the entries of the table to be produced}
 }
 \value{
 
 }
 \description{
-Title
+this function generates the code for producing a "nrow" x "ncol" table for LaTeX with a given "entries".
 }
 \examples{
-
-
+x=matrix(rnorm(12), nrow=3,ncol=4)
+LatexTable(3,4, round( t(x), digits=3 )  )
 }

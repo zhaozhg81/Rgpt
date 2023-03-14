@@ -1,6 +1,6 @@
 #' Title
 #'
-#' @param return
+#' @param return the string returned from chatgpt
 #'
 #' @return
 #' @export
