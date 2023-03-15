@@ -26,4 +26,4 @@ Rgpt("Using R, wirte a sample code for linear model.")
 
 x=matrix(rnorm(12), nrow=3,ncol=4) 
 
-LatexTable( 3, 4, t( round(x), digits=3) )
+LatexTable( 3, 4, t( round(x, digits=3) ) )
