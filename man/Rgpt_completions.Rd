@@ -17,14 +17,6 @@ Rgpt_completions(
 
 \item{openai_api_key}{an OPEN_API_KEY is required.}
 }
-\value{
-
-}
 \description{
 Title
-}
-\examples{
-
-
-
 }

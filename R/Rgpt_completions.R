@@ -19,8 +19,6 @@ function(history, prompt, openai_api_key = Sys.getenv("OPENAI_API_KEY")) {
   if (nchar(openai_api_key) == 0) {
     stop("You should first provide `OPENAI_API_KEY`.")
   }
-  # See https://platform.openai.com/docs/api-reference/chat
-  # and https://beta.openai.com/docs/api-reference/completions/create
   model <- Sys.getenv("OPENAI_MODEL", "gpt-3.5-turbo")
   params <- list(
     model = model,

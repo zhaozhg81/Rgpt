@@ -12,7 +12,7 @@
 #' LatexTable(3,4, round( t(x), digits=3 )  )
 #' @description this function generates the code for producing a "nrow" x "ncol" table for LaTeX with a given "entries".
 #'
-LatexTable <-
+gptLatexTable <-
 function(nrow, ncol, entries)
 {
   history = ""

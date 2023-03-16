@@ -9,14 +9,6 @@ parse_return(return)
 \arguments{
 \item{return}{the string returned from chatgpt}
 }
-\value{
-
-}
 \description{
 Title
-}
-\examples{
-
-
-
 }

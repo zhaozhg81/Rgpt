@@ -9,9 +9,6 @@ Rgpt(inquiry)
 \arguments{
 \item{inquiry}{the question to be sent to chatgpt}
 }
-\value{
-
-}
 \description{
 Title
 }

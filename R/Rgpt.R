@@ -32,9 +32,12 @@ function(inquiry) {
     cat(result)
 
     history = paste( history, "Previous questions", inquiry, "Previous answer", result )
-
+    cat("\n")
+    cat("\n")
     print("Do you want to ask a follow-up question? (Y/N)")
     text=readline()
+    cat("\n")
   }
+  cat("\n")
   print("Thank you.")
 }
