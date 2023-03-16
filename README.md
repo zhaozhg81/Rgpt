@@ -33,6 +33,8 @@ gptLatexTable( 3, 4, t( round(x, digits=3) ) )
 
 ## Diagnose the error from the code
 
+library(tidyverse)
+
 x=matrix( rnorm(20), nrow=4, ncol=5)
 
 y=matrix( rnorm(20), nrow=4, ncol=5)
@@ -40,6 +42,8 @@ y=matrix( rnorm(20), nrow=4, ncol=5)
 x%*%y
 
  Error in x %*% y : non-conformable arguments
+
+## Create a raw strong using the function r" ----(***       )----" from the library tidyverse
 
 Err = r"----( 
 
